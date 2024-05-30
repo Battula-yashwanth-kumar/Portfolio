@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-montserrat;
+}
+
+.rotated-background {
+  background-color:#97FFF4; /* Replace with your desired color */
+  display: inline-block;
+  padding: 0.25rem; /* Adjust padding as needed */
+  transform: rotate(45deg);
+}
+
+
