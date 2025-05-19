@@ -4,7 +4,7 @@ import Project2 from "../assets/Project2.png";
 import Project3 from "../assets/Project3.png";
 import Project4 from "../assets/Project4.png";
 export const resumeLink =
-  "https://drive.google.com/file/d/1m9UeIsTpXpha0R_ZizwgGwUticDuOfRe/view?usp=sharing";
+  "https://drive.google.com/file/d/1FHYUzoaI1Optbm172LmWGCGXN7L9sQQQ/view?usp=sharing";
 export const skills = [
   {
     id: 0,
@@ -39,14 +39,14 @@ export const skills = [
 ];
 
 export const projects = [
- 
+
   {
     id: 0,
     project_name: "Aiden AI Company Website",
     project_desc: "During my internship, I played a key role in building the company’s official website. The site was developed using React, TypeScript, and Tailwind CSS, with smooth animations powered by Framer Motion and responsive carousels implemented using React Slick. I contributed to developing reusable UI components, implementing animations, and ensuring the site was responsive and visually consistent across devices.Note: This project was developed during my internship. The source code is proprietary and cannot be shared.",
     features:
       "",
-    tech_stack: ["React JS", "TypeScript", "Tailwind", "React-Slick","Framer Motion"],
+    tech_stack: ["React JS", "TypeScript", "Tailwind", "React-Slick", "Framer Motion"],
     project_img: Project3,
     project_url: "https://aidenai.com/",
     github_link: "https://github.com/",
@@ -59,7 +59,7 @@ export const projects = [
       "A responsive web application developed to assist farmers by providing personalized crop and fertilizer recommendations. The system analyzes soil health data to help improve agricultural productivity and support informed decision-making.",
     features:
       "Provided tailored crop and fertilizer suggestions to improve yield projections by approximately 15%.Achieved up to 92% accuracy using multiple machine learning algorithms for prediction.Analyzed data from over 7,000 soil samples, considering key factors like nitrogen, phosphorus, and soil pH.Designed to deliver accurate and actionable insights through an intuitive and responsive interface.",
-    tech_stack: ["React Js", "TypeScript","Formik-Yup", "Python", "Flask", "Machine Learning", "Tailwind CSS"],
+    tech_stack: ["React Js", "TypeScript", "Formik-Yup", "Python", "Flask", "Machine Learning", "Tailwind CSS"],
     project_img: Project4,
     project_url: "https://www.figma.com/file/Fn9TnSirNhT2gbSdIdbPsZ/Agri?type=design&node-id=0%3A1&mode=design&t=E6QnzEQzWCNfniPc-1",
     github_link: "https://github.com/Battula-yashwanth-kumar/Agri",
@@ -72,13 +72,13 @@ export const projects = [
     project_desc: "Built UI screens for an Enterprise AI Defense Platform designed to monitor and manage user interactions with AI systems. The interface enables teams to filter, inspect, and regulate prompts sent to AI models, enhancing control, compliance, and data safety across the organization.",
     features:
       "Developed user interface screens that allow filtering and reviewing of AI-generated prompts submitted by users.Integrated Guardrails to enforce prompt quality, safety, and relevance based on enterprise policies.Incorporated PII detection to identify and flag sensitive information in real-time, supporting compliance with data privacy standards.Created a clean, intuitive layout that enables security teams to efficiently track and audit AI usage at scale.",
-    tech_stack: ["Angular", "TypeScript", "Tailwind", "Node.js","Express.js"],
+    tech_stack: ["Angular", "TypeScript", "Tailwind", "Node.js", "Express.js"],
     project_img: Project2,
     project_url: "",
     github_link: "",
     reverse: false,
   },
-  
+
 ];
 
 export const navLinks = [
