@@ -47,11 +47,17 @@ const Project = ({ data }) => {
           <Heading as="h3" size="h3" bottom="1rem">
             {data.project_name}
           </Heading>
-          <IconContainer color="blue" size="2rem">
+          {
+            data.github_link===""?
+            <p></p>
+            :
+            <IconContainer color="blue" size="2rem">
             <GithubButton href={data.github_link} target="blank">
               <FaGithub />
             </GithubButton>
           </IconContainer>
+          }
+          
         </FlexContainer>
 
         <PaddingContainer top="1rem">
@@ -81,9 +87,14 @@ const Project = ({ data }) => {
         <ParaText top="0.5rem" bottom="2rem"></ParaText>
 
 }
-        <Button href={data.project_url} target="blank">
-          Visit website
-        </Button>
+{ data.project_url===""?
+<p></p>
+:
+<Button href={data.project_url} target="blank">
+Visit website
+</Button>
+}
+       
       </motion.div>
       <ProjectImageContainer
         as={motion.div}

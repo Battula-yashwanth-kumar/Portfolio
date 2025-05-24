@@ -49,7 +49,7 @@ export const projects = [
     tech_stack: ["React JS", "TypeScript", "Tailwind", "React-Slick", "Framer Motion"],
     project_img: Project3,
     project_url: "https://aidenai.com/",
-    github_link: "https://github.com/",
+    github_link: "",
     reverse: false,
   },
   {
@@ -75,7 +75,7 @@ export const projects = [
     tech_stack: ["Angular", "TypeScript", "Tailwind", "Node.js", "Express.js"],
     project_img: Project2,
     project_url: "",
-    github_link: "",
+    github_link: "https://github.com/Battula-yashwanth-kumar/codeaify-application",
     reverse: false,
   },
 
